@@ -24,7 +24,7 @@ console.log(this.hydratedList[randomValue]?.name);
 setInterval(() => {
   console.log("set interval")
   notification();
-}, 1000*60);
+}, 1000*60)*60;
 function notification(){
   console.log("hello notifications")
   chrome.notifications.create({
